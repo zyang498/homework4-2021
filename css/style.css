@@ -25,7 +25,7 @@ caption{
 /*END STARTER CODE*/
 
 body{
-  background-image: url("../images/pigeon-background.jpeg");
+  background-image: url("../images/pigeon-background.JPEG");
   background-repeat: no-repeat;
   background-color: #DDDDDD;
   color: #000000;
@@ -62,13 +62,12 @@ a{
 /*Req 5*/
 /*Add selector and rule here*/
 
-* {
+*:focus {
   border: 3px dashed #417243;
 }
 
 td{
   text-align: center;
-  vertical-align: middle;
   border-top: 2px solid #000000;
   padding: 10px;
 }
