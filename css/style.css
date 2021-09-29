@@ -26,6 +26,7 @@ caption{
 
 body{
   background-image: url("../images/pigeon-background.jpeg");
+  background-repeat: no-repeat;
   background-color: #DDDDDD;
   color: #000000;
   font-family: 'Andika', sans-serif;
@@ -137,6 +138,7 @@ You can use Inspect Element or your editor to find selectors. */
 
 
 footer{
+  display: block;
   position: sticky;
   bottom: 0;
   width:100%;
