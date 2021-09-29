@@ -138,9 +138,9 @@ You can use Inspect Element or your editor to find selectors. */
 
 
 footer{
-  display: block;
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  left: 0;
   width:100%;
   min-height: 75px;
   background:#000000;
